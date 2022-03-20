@@ -43,8 +43,10 @@ body{
 h2{
     color: green;
     font-size: 2rem;
+    text-transform: uppercase;
 }
 .banner{
     background: url(./image/p4.jpg);
-    height:900px
+    height:900px;
+    padding: 18px;
 }
