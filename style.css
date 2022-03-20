@@ -34,10 +34,17 @@ body{
 .navbar ul li a:hover{
     color: white;
 }
-.img{
+.banner img{
     width: 5%;
     display: inline;
-    background-color: black;
-    margin-left: 10px;
+    margin-right: 10px;
     margin-top: 10px;
+}
+h2{
+    color: green;
+    font-size: 2rem;
+}
+.banner{
+    background: url(./image/p4.jpg);
+    height:900px
 }
