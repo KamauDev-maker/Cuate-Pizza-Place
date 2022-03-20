@@ -12,11 +12,13 @@ body{
     line-height: 1.60rem;
 }
 .container{
+    display: flex; 
+}
+.navbar{
     display: flex;
+    padding: 18px;
 }
 .navbar ul{
     display: flex;
-}
-.navbar-nav ul li{
-    display: flex;
+    text-decoration: none ;
 }
