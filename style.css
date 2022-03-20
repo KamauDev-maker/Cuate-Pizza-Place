@@ -47,6 +47,30 @@ h2{
 }
 .banner{
     background: url(./image/p4.jpg);
-    height:900px;
+    height:600px;
     padding: 18px;
+}
+.card {
+    width: 80%;
+    min-height: 460px;
+    margin-top: 60px;
+    box-shadow: 0px 8px 60px -10px rgba(13, 28, 39, 0.6);
+    background:white;
+    border-radius: 12px;
+    max-width: 700px;
+    position: relative;
+    color: crimson;
+}
+.order {
+    margin-left: 100px;
+    margin-right: 100px;
+    color:orange
+}
+#submit-pizza {
+    float: right;
+    margin-right: 200px;
+    color: orange;
+}
+#submit-pizza:hover{
+    color: greenyellow;
 }
