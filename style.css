@@ -50,6 +50,14 @@ h2{
     height:600px;
     padding: 18px;
 }
+.about{
+    padding: 150px;
+}
+.about p{
+    font-size: 2rem;
+    font-style: italic;
+    color:white ;
+}
 .card {
     width: 80%;
     min-height: 460px;
@@ -72,5 +80,5 @@ h2{
     color: orange;
 }
 #submit-pizza:hover{
-    color: greenyellow;
+    color: greenyellow ;
 }
