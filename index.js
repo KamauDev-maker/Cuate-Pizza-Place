@@ -2,9 +2,10 @@ $(document).ready(function() {
     $("#order-details").hide();
     $("#deliver").hide();
     let totalPriceArray = [];
-  function Order(size, crust, toppings, amount) {
+  function Order(size, crust, flavour, toppings, amount) {
     this.size = size;
     this.crust = crust;
+    this.flavour = flavour;
     this.toppings = toppings;
     this.pizzaPrice = 0;
     this.amount = amount;
@@ -55,9 +56,10 @@ $(document).ready(function() {
   event.preventDefault();
   let size = $("select#size").val();
   let crust = $("select#crust").val();
+  let flavour = $("select#flavour").val();
   let toppings = $("select#toppings").val();
-  let pizzaDetails = (size + " - " + crust + " - " + toppings);
-  let newPizzaOrder = new Order(size, crust, toppings);
+  let pizzaDetails = (size + " - " + crust + " - " + toppings + "-" +flavour);
+  let newPizzaOrder = new Order(size, crust, flavour,toppings);
   newPizzaOrder.pizzaCost();
   totalPriceArray.push(newPizzaOrder.pizzaPrice);
   $("#final-cost").text(newPizzaOrder.finalCost());

@@ -69,9 +69,14 @@ h2{
     position: relative;
     color: crimson;
 }
+.contact p{
+    color: black;
+    font-size: 1.5rem;
+}
 .footer {
     text-align: center;
     font-size: 1.5rem;
+    height: 20vh;
 }    
 .order {
     margin-left: 100px;

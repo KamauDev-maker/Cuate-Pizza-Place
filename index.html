@@ -13,11 +13,13 @@
     <div class="container">
         <div class="navbar">
             <ul>
-              <li><a href="#">Home</a></li>
-              <li><a href="#">About Us</a></li>
-              <li><a href="#">Pizza & pricing</a></li> 
-              <li><a href="#">Order</a></li> 
-              <li><a href="#">Contact</a></li>  
+              <li> 
+                  <a href="#home">Home</a>
+                  <a href="#about">About Us</a>
+                  <a href="#cart">Pizza & pricing</a>
+                  <a href="#order">Order</a>
+                  <a href="#contact">Contact</a>
+              </li>
             </ul> 
         </div>
         <div class="banner">
@@ -47,9 +49,25 @@
                                 <p class="card-text">Choose the size of Pizza:</p>
                                 <select required class="form-control" id="size">
                                     <option></option>
-                                    <option value="small-pizza">small (500)</option>
-                                    <option value="medium-pizza">medium (750)</option>
+                                    <option value="small-pizza">small (600)</option>
+                                    <option value="medium-pizza">medium (800)</option>
                                     <option value="large-pizza">large (1000)</option>
+                                </select>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4 col-xs-9">
+                        <div class="card">
+                            <img src="./image/p1.jpg" class="card-img-top" alt="...">
+                            <div class="card-body">
+                                <h5 class="card-title">Flavours</h5>
+                                <p class="card-text">Choose a Flavour:</p>
+                                <select required class="form-control" id="flavour">
+                                    <option></option>
+                                    <option value="chicken Tikka">Chicken Tikka</option>
+                                    <option value="chicken Peri peri">chicken Peri peri</option>
+                                    <option value="hawaiian pizza">Hawaiian Pizza</option>
+                                    <option value="meat deluxe">Meat Deluxe</option>
                                 </select>
                             </div>
                         </div>
@@ -105,7 +123,13 @@
                         <h3><span id="delivery-option"></span></h3>
                     </div>
                 </form>
-            </div><br>
+            </div>
+            <div class="contact">
+                <h2>Contact</h2>
+                <p>Mobile - 0721164956</p>
+                <p>Email - oscarnjenga@gmail.com</p>
+
+            </div>
             <button type="btn" class="btn btn-dark" id="checkout-btn">Checkout</button><br><br>
             <div id="order-details" class="col-xs-12">
                 <ul id="pizza-details"><strong>Your order is: </strong></ul>
