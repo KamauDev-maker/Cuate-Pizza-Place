@@ -69,6 +69,10 @@ h2{
     position: relative;
     color: crimson;
 }
+.footer {
+    text-align: center;
+    font-size: 1.5rem;
+}    
 .order {
     margin-left: 100px;
     margin-right: 100px;
@@ -93,5 +97,7 @@ h2{
     padding-top: 10px;
     padding-right: 50px;
     border-style: solid;
-    color:orange;
+    color:black;
+    font-size: 1.5rem;
+    padding-bottom: 2%;
 }

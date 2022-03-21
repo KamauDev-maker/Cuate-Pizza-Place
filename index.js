@@ -63,5 +63,18 @@ $(document).ready(function() {
   $("#final-cost").text(newPizzaOrder.finalCost());
   $("#pizza-details").append("<ul><li>" + pizzaDetails + "</li></ul>");
   });
-  
+  $("#submit-pizza").click(function() {
+    $("#deliver").toggle();
+  });
+
+  $("#checkout-btn").click(function() {
+    $("#order-details").toggle();
+  });
+  $("form#address-form").submit(function(event) {
+    $(".address-form").toggle();
+    event.preventDefault();
+    let address = $("input#location").val();
+    let newAddress = new Address(address);
+    $("#delivery-option").text("Your pizza will be delivered to: " + newAddress.deliveryAddress);
+  });
 });
