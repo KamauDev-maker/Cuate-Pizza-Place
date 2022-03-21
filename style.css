@@ -82,3 +82,16 @@ h2{
 #submit-pizza:hover{
     color: greenyellow ;
 }
+#price-content {
+    text-align: center;
+    color: #FDB913
+}
+#order-details {
+    border: 2px solid black;
+    margin-left: 300px;
+    margin-right: 300px;
+    padding-top: 10px;
+    padding-right: 50px;
+    border-style: solid;
+    color:orange;
+}
