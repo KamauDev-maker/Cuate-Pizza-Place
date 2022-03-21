@@ -38,4 +38,15 @@ $(document).ready(function() {
       this.pizzaPrice += 150;
     }
   };
+  function Address(address) {
+    this.address = address;
+    this.deliveryAddress = (address);
+  }
+  Order.prototype.finalCost = function() {
+    let cartTotalPrice = [];
+    for (let arrayElement = 0; arrayElement < totalPriceArray.length; arrayElement++) {
+      cartTotalPrice += totalPriceArray[arrayElement];
+    }
+    return cartTotalPrice;
+  };
 });
